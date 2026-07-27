@@ -19,4 +19,182 @@
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="var(--global-bg-color)"/>
 
+<!-- Custom styles for course page -->
+ {% include microscopy-course-colors.html %}
+<style>
+  body {
+    margin: 0;
+  }
+
+  body.layout--microscopy-course-page {
+    background-color: var(--course-page-bg);
+  }
+
+  #main.course-page {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .course-page-wrapper {
+    display: flex;
+    align-items: stretch;
+    min-height: 100vh;
+    background-color: var(--course-page-bg);
+  }
+
+
+  .course-content {
+    flex: 0 0 1050px;
+    max-width: 1050px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0em 5em;
+    color: black;
+  }
+
+  .course-content,
+  .course-content h1,
+  .course-content h2,
+  .course-content h3,
+  .course-content h4,
+  .course-content h5,
+  .course-content h6 {
+    font-family: Tahoma, sans-serif;
+    color: var(--course-text);
+  }
+
+  .course-content {
+    font-size: 1em;
+  }
+  
+  .course-side-bar {
+    flex: 1 1 100px;
+    min-width: 0;
+    background-color: var(--course-bar-bg);
+  }
+
+  .course-content a {
+    color: var(--course-link);
+  }
+
+  .instructor-bio {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5em;
+    margin: 2em 0;
+  }
+
+  .instructor-bio img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  .instructor-bio .bio-text {
+    flex: 1;
+  }
+
+  .instructor-bio .bio-text > *:first-child {
+    margin-top: 0;
+  }
+
+  .justify-text {
+    text-align: justify;
+  }
+
+  @media (max-width: 600px) {
+    .instructor-bio {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .course-content {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .course-side-bar {
+    flex: 0 0 0;
+  }
+}
+
+
+.course-side-bar {
+  position: relative;
+}
+
+.course-side-bar--left::after,
+.course-side-bar--right::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 40px;
+  height: 100%;
+  background-image: url("{{ base_path }}/images/wave-tile.svg");
+  background-repeat: repeat-y;
+  z-index: 1;
+}
+
+.course-side-bar--left::after {
+  right: -20px;
+}
+
+.course-side-bar--right::before {
+  left: -20px;
+  transform: scaleX(-1);
+}
+
+
+.tight-label,
+.tight-label p {
+  margin-bottom: 0em;
+}
+
+.tight-label + .justify-text,
+.tight-label + .justify-text p:first-child,
+.tight-label + ul {
+  margin-top: 0;
+}
+
+.course-content li {
+  margin-bottom: 0em;
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.course-nav {
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+  margin-top: 0em;
+  padding-top: 0em;
+  margin-bottom: 2em;
+  padding-bottom: 1em;
+  border-bottom: 3px solid var(--course-text);
+  font-size: 1.2em;
+}
+
+.course-nav a {
+  color:  var(--course-link);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.course-nav-title {
+  text-align: center;
+  margin-top: 1%;
+  padding-top: 1em;
+  margin-bottom: 0.5em;
+  font-size: 1.5em;
+}
+
+</style>
+
 <!-- end custom head snippets -->
