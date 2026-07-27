@@ -9,7 +9,7 @@ anchor: CourseExpectations
 {: style="color: #5075ba;" }
 
 <div class="tight-label" markdown="1">
-**Students are expected to:**
+**Students are expected to...**
 </div>
 * Attend every session and arrive on time.
 * Participate actively and enthusiastically in course activities and assignments.
@@ -17,14 +17,14 @@ anchor: CourseExpectations
 * Treat fellow students, instructors and course equipment and materials with care and respect.
 
 <div class="tight-label" markdown="1">
-**The instructors:**
+**The instructors...**
 </div>
 * Will be generally available to contact during course days via email (gamador@alumni.stanford.edu & emgp8816@gmail.com) or, for urgent matters, via WhatsApp message (+16179491853 & +525525030970). Messages to either instructor may be written in English or Spanish.
 * Will provide feedback and guidance on your performance throughout the week.
 * May photograph or record course activities for Clubes de Ciencia México's records or promotional use. Please let us know if you'd prefer not to be included.
 
 <div class="tight-label" markdown="1">
-**Letters of recommendation:**
+**Letters of recommendation**
 </div>
 <p class="justify-text" markdown="1">
 Some of you may ultimately wish to ask either instructor for a letter of recommendation. If so, please contact the instructor of your choice at least four weeks before any deadline, and include your CV, a description of your involvement in the course, your future career plans, and how this application fits into them. We're happy to write letters where we can give a strong, accurate portrayal of a student's performance and ability, and will let you know if that's the case.

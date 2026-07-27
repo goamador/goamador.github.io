@@ -106,18 +106,31 @@
   }
 
   @media (max-width: 600px) {
-    .instructor-bio {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
-    .course-content {
+  .instructor-bio {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .course-content {
     flex: 1 1 auto;
     min-width: 0;
+    padding: 1em 1.25em;
   }
 
   .course-side-bar {
     flex: 0 0 0;
+  }
+
+  .course-side-bar--left::after,
+  .course-side-bar--right::before {
+    display: none;
+  }
+
+  .course-nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75em;
   }
 }
 
