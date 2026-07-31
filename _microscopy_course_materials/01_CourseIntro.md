@@ -3,6 +3,7 @@ title: ""
 collection: microscopy_course_materials
 permalink: /microscopy-course/CourseIntro/
 anchor: CourseIntro
+order: 1
 ---
 
 <div class="justify-text" markdown="1">

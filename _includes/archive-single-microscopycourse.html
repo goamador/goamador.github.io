@@ -1,9 +1,11 @@
 {% include base_path %}
 
 <div class="archive__item" id="{{ post.anchor }}">
+  {% unless post.hide_title %}
   <h2 class="archive__item-title">
     <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
   </h2>
+  {% endunless %}
   <div class="archive__item-body">
     {{ post.content }}
   </div>

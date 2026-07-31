@@ -7,7 +7,8 @@ hide_masthead: true
 
 {% include base_path %}
 
-{% for post in site.microscopy_course_materials %}
+{% assign sorted_materials = site.microscopy_course_materials | sort: 'order' %}
+{% for post in sorted_materials %}
   {% include archive-single-microscopycourse.html %}
 {% endfor %}
 

@@ -3,6 +3,7 @@ title: ""
 collection: microscopy_course_materials
 permalink: /microscopy-course/LearningObjectives/
 anchor: LearningObjectives
+order: 2
 ---
 
 ## Learning Objectives

@@ -176,6 +176,60 @@
   margin-bottom: 0em;
 }
 
+.course-schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: none;
+  margin: 1em 0 2em;
+  font-size: 0.95em;
+}
+
+.course-schedule-table th,
+.course-schedule-table td {
+  text-align: left;
+  padding: 0.25em 1em;
+  border: none;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.course-schedule-table tr:last-child td {
+  border-bottom: none;
+}
+
+.course-schedule-table th {
+  background-color: #f3f3f3;
+  color: var(--course-text);
+  font-weight: bold;
+  font-style: italic;
+}
+
+.course-schedule-table td {
+  background-color: #ffffff;
+}
+
+.course-schedule-details {
+  margin: 0 0 0.75em;
+}
+
+.course-schedule-details summary {
+  cursor: pointer;
+  font-weight: bold;
+  color: var(--course-link);
+  margin-bottom: 0.5em;
+}
+
+.course-schedule-details summary::marker {
+  color: var(--course-link);
+}
+
+.course-schedule-details summary.course-schedule-summary--dark {
+  color: #000000;
+}
+
+.course-schedule-details summary.course-schedule-summary--dark::marker {
+  color: #000000;
+}
+
 
 
 html {
@@ -185,12 +239,13 @@ html {
 .course-nav {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 1.5em;
   margin-top: 0em;
-  padding-top: 0em;
   margin-bottom: 2em;
-  padding-bottom: 1em;
-  border-bottom: 3px solid var(--course-text);
+  padding: 0.375em 1.5em;
+  background-color: var(--course-bar-bg);
+  border-radius: 1.5em;
   font-size: 1.2em;
 }
 
@@ -198,6 +253,22 @@ html {
   color:  var(--course-link);
   text-decoration: none;
   font-weight: bold;
+  padding: 0.2em 0.9em;
+  border-radius: 1.5em;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.course-nav a:hover {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+.course-banner {
+  display: block;
+  width: 100%;
+  max-height: 320px;
+  object-fit: cover;
+  border-radius: 1em;
+  margin-bottom: 2em;
 }
 
 .course-nav-title {

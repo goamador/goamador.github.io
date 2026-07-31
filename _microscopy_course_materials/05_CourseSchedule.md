@@ -3,12 +3,10 @@ title: ""
 collection: microscopy_course_materials
 permalink: /microscopy-course/CourseSchedule/
 anchor: CourseSchedule
+order: 5
 ---
 
-## Course Schedule ##
-{: style="color: #5075ba;" }
-
-<div class="tight-label" markdown="1">
+<!-- <div class="tight-label" markdown="1">
 **Day 1: Introduction & Basics of Microscopy** <br>
 *Big questions*: What is light? What is a lens? How do lenses manipulate light to magnify the very small? And how has this ability transformed our understanding of life? <br>
 *Hands-on activities*: Practice using microscopes to see plant and animal life at scales invisible to the naked eye. Explore award-winning microscopy images, learn about the underlying technology and present your findings to your peers.
@@ -28,9 +26,7 @@ anchor: CourseSchedule
 **Day 5: Wrap-up, Reflections & Presentation Prep** <br>
 *Big question*: How do you communicate a scientific discovery with someone who wasn’t there? <br>
 Student-led group discussion, reflection, preparation and rehearsal for public presentation on day 6.
-</div>
-
- <br> <br> <br> <br> <br> <br> <br> <br>
+</div> -->
 
 
 
