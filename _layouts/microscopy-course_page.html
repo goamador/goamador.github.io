@@ -14,7 +14,10 @@ layout: default
         <a href="#CourseExpectations">Expectations</a>
         <a href="#CourseSchedule">Schedule</a>
       </nav>
-      <img class="course-banner" src="{{ base_path }}/images/Banner.jpg" alt="">
+      <picture>
+        <source media="(max-width: 600px)" srcset="{{ base_path }}/images/Banner-mobile.jpg">
+        <img class="course-banner" src="{{ base_path }}/images/Banner.jpg" alt="">
+      </picture>
       <h1 class="page__title">{{ page.title }}</h1>
       {{ content }}
     </div>
