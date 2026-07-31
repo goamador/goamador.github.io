@@ -20,7 +20,7 @@ order: 6
 | 10:00 - 11:00 | *Lecture*: What is a microscope? |
 | 11:00 - 11:15 | Coffee Break |
 | 11:15 - 12:45 | *Lab*: How do we use a microscope? |
-| 12:45 - 13:30 | *Lecture*: How does a microscope see? |
+| 12:45 - 13:30 | *Lecture*: How does a microscope magnify? |
 | 13:30 - 13:45 | Lab cleanup |
 | 13:45 - 14:45 | *Student presentations*: Nikon Small World Competition images |
 | 14:45 - 15:00 | Wrap-up & reflection exercise |
